@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: "${GIT_URL}"
+                git branch: 'main', url: "${GIT_URL}"
             }
         }
         stage('Setup Node.js') {
