@@ -1,7 +1,6 @@
-const assert = require('assert');
+// tests/jenkinstest.spec.js
+import { test, expect } from '@playwright/test';
 
-describe('Jenkins Test', function() {
-    it('should pass this simple test', function() {
-        assert.strictEqual(1 + 1, 2);
-    });
+test('Jenkins Test - simple addition', async ({}) => {
+    expect(1 + 1).toBe(2);
 });
