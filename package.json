@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha tests/**/*.spec.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/humayunrashid786/firstCodebase.git"
@@ -17,6 +19,7 @@
   "homepage": "https://github.com/humayunrashid786/firstCodebase#readme",
   "devDependencies": {
     "@playwright/test": "^1.55.0",
-    "@types/node": "^24.3.0"
+    "@types/node": "^24.3.0",
+    "mocha": "^10.2.0"
   }
 }
